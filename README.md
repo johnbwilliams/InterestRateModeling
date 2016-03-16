@@ -6,19 +6,22 @@ U.S. trearury yields from May 31, 1990 are modeled, located in file Diablod_Li_d
 
 InterestRate.Rmd written in Rmarkdown, R programming & Latex,  knitted to Pdf with Rstudio and knitr package
 
-InterestRate.Rmd expects Diablod_Li_data.txt to be in a "data" subdirectory
+InterestRate.Rmd expects Diablod_Li_data.txt to exit in a "data" subdirectory
 
 R packages used to knit InterestRate.Rmd into InterestRate.pdf
 
 attached base packages:
+
 [1] splines stats graphics grDevices utils datasets methods
 [8] base
 
 other attached packages:
+
 [1] servr_0.3 KernSmooth_2.23-15 minpack.lm_1.2-0
 [4] ggplot2_2.1.0 knitr_1.12.3
 
 loaded via a namespace (and not attached):
+
 [1] Rcpp_0.12.3 digest_0.6.9 plyr_1.8.3 grid_3.2.4
 [5] gtable_0.2.0 formatR_1.3 magrittr_1.5 evaluate_0.8.3
 [9] scales_0.4.0 highr_0.5.1 stringi_1.0-1 rmarkdown_0.9.5
